@@ -927,6 +927,14 @@ h2{
         margin-top: 6%}
 }
 @media only screen and (max-width:400px) {
+	
+	#homeMobile
+	{
+		font-size:0.5em;
+		text-decoration:none;
+		color:white;
+	}
+	
     #IMG22{
         width:40%;
         margin-top: 7%}

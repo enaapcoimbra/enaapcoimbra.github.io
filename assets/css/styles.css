@@ -580,6 +580,10 @@ nav {
 }
 
 @media only screen and (max-width:1150px) {
+	
+	body{
+		font-size:0.9em;
+	}
 
 	/*--------- Menu ---------*/ 
 	.header-pages{
@@ -904,7 +908,6 @@ h2{
 
 #homeMobile
 {
-	font-size:1em;
 	text-decoration:none;
 	color:white;
 }

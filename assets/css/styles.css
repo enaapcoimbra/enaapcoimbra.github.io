@@ -283,12 +283,12 @@ nav {
 
 .nav-fostrap ul {
 	list-style: none;
-	margin: 0;
+	margin-bottom: 0;
 	padding: 0;
 	float: right;
 	list-style-type: none;
 	display: block;
-    margin-right: -9%;
+    margin-right: auto;
 }
 
 .nav-fostrap li {
@@ -373,6 +373,10 @@ nav {
 
 .title-mobile {
 	display: none !important;
+}
+.embed-responsive-16by9
+{
+	max-width: 60%;
 }
 
 /*--------- Fim Menu---------*/
@@ -575,13 +579,13 @@ nav {
 	}
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:1150px) {
 
 	/*--------- Menu ---------*/ 
 	.header-pages{
 		margin-top: 60px !important;	
 	}
-
+	
 	.nav-fostrap {
 		background: #F0F0F0;
 		width: 250px;
@@ -781,24 +785,19 @@ nav {
 		margin-left: 35%;
 	}
 	/*---------Fim Oradores Convidados---------*/ 
-    #IMG1{
+    #IMG22{
         width:100%;
         margin-top: 1%;
     }
 
 }
 
-@media only screen and (max-width:1199px) {
 
-	.container { 
-		width: 96%; margin: 0px;
-	}
-}
 
 @media only screen and (max-width: 700px){
-    #IMG1{
-        width:100%;
-        margin-top: 2%}
+    #IMG22{
+        width:40%;
+        margin-top: 4%}
 	
 	/*--------- Jantar imagem e iframe ---------*/
 	.h_iframe img {
@@ -857,9 +856,6 @@ h2{
 #cartaz{
     width: 90%;
 }
-#IMG1{
-    width:100%;
-}
 
 #IMG22{
 	width:40%;
@@ -885,13 +881,6 @@ h2{
 	display:relative;
 }
 
-#VIDZINDEX
-{
-	
-	border:red solid 8px;
-	padding-left: 0px;
-	max-width: 1015px;
-}
 
 #INDEXH1
 {
@@ -913,25 +902,38 @@ h2{
 	width:100%;
 }
 
+#homeMobile
+{
+	text-decoration:none;
+	color:white;
+}
+
+#homeMobile:hover
+{
+	text-decoration:none;
+	color:white;
+}
+
+
 @media only screen and (max-width:600px) {
-    #IMG1{
-        width:100%;
-        margin-top: 3%}
-}
-@media only screen and (max-width:500px) {
-    #IMG1{
-        width:100%;
-        margin-top: 4%}
-}
-@media only screen and (max-width:400px) {
-    #IMG1{
-        width:100%;
+    #IMG22{
+        width:40%;
         margin-top: 5%}
 }
+@media only screen and (max-width:500px) {
+    #IMG22{
+        width:40%;
+        margin-top: 6%}
+}
+@media only screen and (max-width:400px) {
+    #IMG22{
+        width:40%;
+        margin-top: 7%}
+}
 @media only screen and (max-width:300px) {
-    #IMG1{
+    #IMG22{
         width:100%;
-        margin-top: 8%}
+        margin-top: 10%}
 }
 
 .entry-content a:hover {

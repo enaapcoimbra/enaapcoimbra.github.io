@@ -917,14 +917,49 @@ h2{
 
 #IMG26
 {
-	width:100%;
+	max-width:100%;
 }
 
+#IMG13
+{
+	width: 20%;
+	margin-bottom:5%;
+}
+
+#textoPack1
+{
+	margin-top: 10%;
+	font-size: 1.5em;
+}
+
+#textoPack2
+{
+	font-size: 1.5em;
+}
+.packs
+{
+	border: 1px solid red;
+	box-shadow: 5px 5px red;
+}
+
+#pack1
+{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+#pack1-entry
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 
 @media only screen and (max-width:600px) {
     #IMG22{
         width:40%;
         margin-top: 5%}
+		
+		
 }
 @media only screen and (max-width:500px) {
     #IMG22{

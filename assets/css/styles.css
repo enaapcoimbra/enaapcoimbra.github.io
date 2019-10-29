@@ -728,6 +728,7 @@ nav {
 	.nav-fostrap li ul.dropdown li:hover a {
 		background: rgba(0,0,0,.1) !important;
 		color: #2980B9 !important;
+		padding: 0px !important:
 	}
 
 	.nav-fostrap li ul.dropdown li a { padding: 0px; }

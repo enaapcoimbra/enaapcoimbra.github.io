@@ -358,6 +358,7 @@ nav {
 .nav-fostrap li:hover a {
 	background: rgba(224, 224, 224,0.4);
 	color: #89171c !important;
+	padding: 0 8px;
 }
 
 .nav-fostrap li:first-child:hover a { border-radius: 3px 0 0 3px; }
@@ -727,7 +728,6 @@ nav {
 	.nav-fostrap li ul.dropdown li:hover a {
 		background: rgba(0,0,0,.1) !important;
 		color: #2980B9 !important;
-		
 	}
 
 	.nav-fostrap li ul.dropdown li a { padding: 0px; }
@@ -861,13 +861,11 @@ h2{
 
 #IMG22{
 	width:40%;
+	margin-bottom: 1%;
 }
 
 #IMG2{
-    width: 10%;
-    position: absolute;
-	margin-left: -5%;
-	margin-top: 1%;
+    width: 50%
 }
 
 #IMG17
@@ -936,8 +934,8 @@ h2{
 }
 .packs
 {
-	border: 1px solid red !important;
-	box-shadow: 5px 5px red !important;
+	border: 1px solid rgb(187, 5, 7) !important;
+	box-shadow: 5px 5px rgb(187, 5, 7) !important;
 }
 
 #pack1

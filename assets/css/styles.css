@@ -268,8 +268,6 @@ header {
 }
 .logo-box {
 	float: left;
-	padding-top: 7px;
-	padding-left: 15px;
 }
 .logo-box a {
 	outline: none;
@@ -866,10 +864,8 @@ h2{
 }
 
 #IMG2{
-    width: 10%;
-    position: absolute;
-    top: 7px;
-    right: 86%;
+    width: 50%;
+    position: relative;
 }
 
 #IMG17

@@ -866,7 +866,7 @@ h2{
 }
 
 #IMG2{
-    width: 12%;
+    width: 10%;
     position: absolute;
     top: 7px;
     right: 86%;
@@ -938,8 +938,8 @@ h2{
 }
 .packs
 {
-	border: 1px solid red;
-	box-shadow: 5px 5px red;
+	border: 1px solid red !important;
+	box-shadow: 5px 5px red !important;
 }
 
 #pack1

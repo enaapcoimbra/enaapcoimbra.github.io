@@ -950,15 +950,7 @@ h2{
 	margin-bottom: 0px;
 }
 
-a.btn.btn-outline-danger
-{
-	color:rgb(187, 5, 7)!important;
-}
 
-a.btn.btn-outline-danger : hover
-{
-	color:white!important;
-}
 
 @media only screen and (max-width:600px) {
     #IMG22{

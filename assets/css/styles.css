@@ -358,7 +358,7 @@ nav {
 .nav-fostrap li:hover a {
 	background: rgba(224, 224, 224,0.4);
 	color: #89171c !important;
-	padding: 0 8px;
+	padding: 0 0px;
 }
 
 .nav-fostrap li:first-child:hover a { border-radius: 3px 0 0 3px; }

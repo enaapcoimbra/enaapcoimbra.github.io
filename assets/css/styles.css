@@ -938,8 +938,8 @@ h2{
 }
 .packs
 {
-	border: 1px solid red;
-	box-shadow: 5px 5px red;
+	border: 1px solid red !important;
+	box-shadow: 5px 5px red !important;
 }
 
 #pack1

@@ -582,7 +582,7 @@ nav {
 	body{
 		font-size:0.9em;
 	}
-
+	
 	/*--------- Menu ---------*/ 
 	.header-pages{
 		margin-top: 60px !important;	
@@ -618,15 +618,15 @@ nav {
 		color: #FFF;
 		display: inline-block !important;
 	}
-
+	
 	.logo-box {
 		display: none;
 	}
-
+	
 	.nav-div-fostrap{
 		margin: 15px;
 	}
-
+	
 	.nav-fostrap.visible {
 		left: 0px;
 		-webkit-transition: left 0.25s ease;
@@ -636,7 +636,7 @@ nav {
 		transition: left 0.25s ease;
 		z-index: 2;
 	}
-
+	
 	.nav-bg-fostrap {
 		z-index: 2;
 		display: inline-block;
@@ -655,8 +655,8 @@ nav {
 		-o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 	}
-
-
+	
+	
 	.navbar-fostrap span, .navbar-fostrap span:before, .navbar-fostrap span:after {
 		cursor: pointer;
 		border-radius: 1px;
@@ -668,79 +668,79 @@ nav {
 		content: "";
 		transition: all 300ms ease-in-out;
 	}
-
+	
 	.navbar-fostrap span:after {
 		bottom: -10px;
 	}
 	.navbar-fostrap span:before {
 		top: -10px;
 	}
-
+	
 	.navbar-fostrap.active span {
 		background-color: transparent;
 	}
 	.navbar-fostrap.active span:after {
 		transform: rotate(-45deg);
 	}
-
+	
 	.navbar-fostrap.active span:before {
 		transform: rotate(45deg);
 	}
-
+	
 	.navbar-fostrap.active span:before, .navbar-fostrap.active span:after {
 		top: 0;
 	}
-
+	
 	.nav-fostrap ul { 
 		padding-top: 50px; 
 		clear: both;
 		float: none;
 	}
-
-
+	
+	
 	.nav-fostrap li { 
 		display: block; 
 		margin-left: 0px;
 		text-align: center;
 	}
-
+	
 	.nav-fostrap li a {
 		display: block;
 		color: #505050;
 		font-weight: 600;
 	}
-
+	
 	.nav-fostrap li:first-child:hover a { border-radius: 0; }
-
+	
 	.nav-fostrap li ul.dropdown { position: relative; }
-
+	
 	.nav-fostrap li ul.dropdown li a {
 		background: #2980B9 !important;
 		border-bottom: none;
 		color: #fff !important;
 	}
-
+	
 	.nav-fostrap li:hover a {
 		background: rgba(224, 224, 224,0.4);
 		color: #2980B9 !important;
 	}
-
+	
 	.nav-fostrap li ul.dropdown li:hover a {
 		background: rgba(0,0,0,.1) !important;
 		color: #2980B9 !important;
 	}
-
+	
 	.nav-fostrap li ul.dropdown li a { padding: 0px; }
-
+	
 	.nav-fostrap li:hover .arrow-down { border-top: 5px solid #fff; }
-
+	
 	.arrow-down {
 		border-top: 5px solid #505050;
 		position: absolute;
 		top: 20px;
 		right: 10px;
 	}
-
+	
 	.cover-bg {
 		background: rgba(0,0,0,0.5);
 		position: fixed;
@@ -750,7 +750,7 @@ nav {
 		right: 0;
 	}
 	/*--------- Fim Menu ---------*/ 
-
+	
 	/*---------Contactos---------*/
 	.info{
 		display: block;
@@ -768,12 +768,12 @@ nav {
 		margin-top: 40px;
 		position: relative;
 	}
-
+	
 	.jumbo{
 		margin-left:18px;
 	}
 	/*---------Fim Contactos---------*/
-
+	
 	/*---------Oradores Convidados---------*/
 	.imagem{
 		display:inline;
@@ -790,8 +790,8 @@ nav {
     #IMG22{
         width:100%;
         margin-top: 1%;
-    }
-
+	}
+	
 }
 
 
@@ -799,13 +799,13 @@ nav {
 @media only screen and (max-width: 700px){
     #IMG22{
         width:40%;
-        margin-top: 4%}
+	margin-top: 4%}
 	
 	/*--------- Jantar imagem e iframe ---------*/
 	.h_iframe img {
 		display: block;
 	}
-
+	
 	.h_iframe iframe {
 		display: none;
 	}	
@@ -834,6 +834,17 @@ h2{
 
 #ig:hover{
 	color: #d62976;
+}
+
+#lk{
+	color: white;
+    position: relative;
+    right: 50px;
+	top: 10px;
+}
+
+#lk:hover{
+	color: #2867B2;
 }
 
 #email{
@@ -873,9 +884,20 @@ h2{
 	max-width:50%;
 }
 
-#textOrad
+#IMG29
 {
-	display:relative;
+	max-width:50%;
+	float:right;
+}
+#IMG28, #IMG31
+{
+	max-width:50%;
+	float:left;
+}
+
+.textOrad
+{
+	opacity:0%;
 }
 
 
@@ -963,14 +985,14 @@ a.btn.btn-outline-danger : hover
 @media only screen and (max-width:600px) {
     #IMG22{
         width:40%;
-        margin-top: 5%}
-		
-		
+	margin-top: 5%}
+	
+	
 }
 @media only screen and (max-width:500px) {
     #IMG22{
         width:40%;
-        margin-top: 6%}
+	margin-top: 6%}
 }
 @media only screen and (max-width:400px) {
 	
@@ -983,14 +1005,20 @@ a.btn.btn-outline-danger : hover
 	
     #IMG22{
         width:40%;
-        margin-top: 7%}
+	margin-top: 7%}
 }
 @media only screen and (max-width:300px) {
     #IMG22{
         width:100%;
-        margin-top: 10%}
+	margin-top: 10%}
 }
 
 .entry-content a:hover {
     color: white !important;
 }
+
+.carousel {padding-bottom: 25px}
+.carousel img{padding-top: 20px;}
+.carousel h2 {color: #0072b5;}
+.carousel h2 small{color: #289bde}
+.carousel col-lg-4 p {text-align: center;}

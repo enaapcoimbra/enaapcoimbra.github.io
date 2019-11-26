@@ -59,50 +59,10 @@ body {
 	color: #777777;
 }
 
-.contacto {
-	margin: 20px 0;
-	width: 57%;
-	display: inline-block;
-	color: #222;
-}
 
 /*---------Contactos Formulario ---------*/
-.contacto form ul{
-	padding: 0;
-}
-.contacto form li.first,li.second{
-	border:none;
-	list-style:none;
-	margin-bottom:10px;
-	width:100%;
-}
 
-.first .icon  {
-	height:55px;
-	width:55px;
-	display: block;
-	float: left;
-	background-color: #2980B9 !important;
-	border-top-left-radius: 0.3em;
-	-o-border-top-left-radius: 0.3em;
-	-moz-border-top-left-radius: 0.3em;
-	-webkit-border-top-left-radius: 0.3em;
-	border-border-bottom-left-radius: 0.3em;
-	-o-border-bottom-left-radius: 0.3em;
-	-moz-border-bottom-left-radius: 0.3em;
-	-webkit-border-bottom-left-radius: 0.3em;
-}
 
-.first .icon svg{
-	height: 50px;
-	margin-top: 4px;
-	margin-left: 4px;
-}
-.first .fa-log svg{
-	height: 50px;
-	margin-top: 4px;
-	margin-left: -2px;
-}
 
 input,select,form textarea {
 	width: 77%;
@@ -128,111 +88,8 @@ form textarea {
 	height: 140px;
 }
 
-.labeltext{
-	margin: 15px 0;
-	color: #666;
-	display: block;
-	font-size: 20px;
-	text-align: center;
-	font-weight: 700;
-}
-
-.titleform{
-	font-size: 25px;
-	line-height: 1.7;
-	color: #777777;
-	font-weight: bolder;
-}
-
-.login-01 input[type="submit"]{
-	width: 50% !important;
-	font-size: 17px;
-	font-weight: 300;
-	color: #fff;
-	cursor: pointer;
-	outline: none;
-	padding: 10px 10px;
-	border: 2px solid;
-	background: #2980B9 ;
-	border-radius: 0.6em;
-	-o-border-radius: 0.6em;
-	-webkit-border-radius: 0.6em;
-	-moz-border-radius: 0.6em;
-	margin-right:2.85em;
-}
-
-.content-login{
-	position: relative;
-	left: 25%;
-}
-
-.linha{
-	border: 1px solid #868686;
-	height: 2px;
-	width: 85%;
-}
 
 /*---------Fim Contactos---------*/
-
-
-/*---------Oradores Convidados---------*/
-
-.orador{
-	display: inline-block;
-	position: relative;
-	width: 50%;
-	float: left;
-}
-
-.orador_full{
-	width: 100%;
-}
-
-.orador img{
-	position: relative;
-	margin-left: 40%;
-}
-.orador h1{
-	text-align: center;
-}
-/*---------Fim Oradores Convidados---------*/ 
-
-
-/*--------- Datas Importantes---------*/
-
-.services_container {
-	margin: 0px;
-	width: 33%;
-}
-.services {
-	margin-bottom: 2em;
-	text-align: center;
-	width: 100%;
-	margin-right: 0;
-	float: left;
-}
-
-.services span {
-	margin-bottom: 30px;
-	display: block;
-	width: 100%;
-}
-
-.services h3 {
-	font-size: 20px;
-	font-weight: 400;
-}
-
-.services p {
-	margin-bottom: 1.5em;
-	font-size: 20px;
-	margin: 10px; 
-	padding: 0px; 
-	line-height: 1.7;
-	color: #777777;
-}
-
-/*---------Datas Importantes---------*/ 
 
 
 /*--------- Preçario---------*/
@@ -256,174 +113,12 @@ table > tbody > tr > td, table > tfoot > tr > td {
 
 /*--------- Menu---------*/
 
-header {
-	background: #F0F0F0;
-	box-shadow: 0 4px 6px rgba(0,0,0,.2);  
-}
-
-.container {
-	padding: 0 20px;
-	max-width: 960px;
-	margin: 0 auto;
-}
-.logo-box {
-	float: left;
-}
-.logo-box a {
-	outline: none;
-	display: block;
-}
-.logo-box img {display: block;}
-
-nav {
-	display: flow-root;
-}
-
-.nav-fostrap ul {
-	list-style: none;
-	margin-bottom: 0;
-	padding: 0;
-	float: right;
-	list-style-type: none;
-	display: block;
-    margin-right: auto;
-}
-
-.nav-fostrap li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
-	position: relative;
-	font-size: 19px;
-	color: #def1f0;	 
-	margin-left: 60px;
-	height: 70px;
-	line-height: 70px;
-	transition: .5s linear;
-}
-
-.nav-fostrap li a {
-	font-size: 19px;
-	outline: 0;
-	font-weight: 600;
-	text-decoration: none;
-	display: block;
-	position: relative;
-	color: black;
-	text-transform: uppercase;
-}
-
-.nav-fostrap li:hover > ul.dropdown { display: block;  }
-
-.nav-fostrap li a:after {
-	content: "";
-	width: 0;
-	height: 2px;
-	position: absolute;
-	left: 0;
-	bottom: 15px;
-	background: #868686;
-	transition: width .5s linear; 
-}
-
-.nav-fostrap li a:hover:after {width: 100%;}
-
-.nav-fostrap li ul.dropdown {
-	position: absolute;
-	display: none;
-	width: 250px;
-	background: #fff;
-	padding-top: 0;
-	z-index: 2;
-}
-
-.nav-fostrap li > ul.dropdown li {
-	display: block;
-	list-style-type: none;
-	margin: 0;
-}
-
-.nav-fostrap li > ul.dropdown li a {
-	font-size: 15px;
-	color: #fff;
-	display: block;
-	font-weight: 600;
-	background: #F0F0F0;
-	text-align: center;
-}
-
-.nav-fostrap li ul.dropdown li:last-child a { border-bottom: none; }
-
-.nav-fostrap li:hover a {
-	background: rgba(224, 224, 224,0.4);
-	color: #89171c !important;
-	padding: 0 8px;
-}
-
-.nav-fostrap li:first-child:hover a { border-radius: 3px 0 0 3px; }
-
-.nav-fostrap li ul.dropdown li:hover a { background: rgba(0,0,0, .1); }
-
-.nav-fostrap li ul.dropdown li:first-child:hover a { border-radius: 0; }
-
-.nav-fostrap li:hover .arrow-down { border-top: 5px solid #fff; }
-
-.title-mobile {
-	display: none !important;
-}
 .embed-responsive-16by9
 {
 	max-width: 60%;
 }
 
 /*--------- Fim Menu---------*/
-
-/*---------Cabeçalho das Paginas---------*/ 
-.header-pages {
-	margin-top: 2px;
-}
-
-.fixed-top {
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
-.page-header {
-	padding: 30px 0px;
-	border-top: 1px solid #e9e9e9;
-	background: #f8f9f9;
-	border-bottom: 1px solid #e9e9e9;
-}
-
-.page-header .entry-title {
-	margin-bottom: 0px;
-	font-size: 24px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-
-/*--------- Fim Cabeçalho das Paginas---------*/ 
-
-/*--------- Texto Logotipo do Menu Responsivo---------*/ 
-.site-text-logo {
-	padding-top: 1px;
-	margin: 0px;
-	line-height: 1;
-	font-size: 23px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	color: #000000;
-	display: initial;
-	vertical-align: middle;
-	font-weight: 600;
-	text-decoration: none;
-	position: absolute;
-}
-/*--------- Fim Cabeçalho das Paginas---------*/ 
 
 
 /*--------- Conteudo das Paginas---------*/ 
@@ -1007,6 +702,7 @@ a.btn.btn-outline-danger : hover
         width:100%;
 	margin-top: 10%}
 }
+
 
 .entry-content a:hover {
     color: white !important;

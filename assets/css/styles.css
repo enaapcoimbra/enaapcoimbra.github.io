@@ -1014,11 +1014,11 @@ a.btn.btn-outline-danger : hover
 
 .carousel-control-next
 {
-	background-color: rgb(187, 5, 7);
+	background-color: rgb(187, 5, 7)!important;
 }
 .carousel-control-prev
 {
-	background-color: rgb(187, 5, 7);
+	background-color: rgb(187, 5, 7)!important;
 }
 
 .imagem-slider

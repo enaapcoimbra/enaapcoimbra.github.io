@@ -11,6 +11,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	var teste = parseInt(window.location.search.substring(1));
     $("#SlideshowOradores").carousel(teste);
+	$("#SlideshowOradoresMobile").carousel(teste);
 });
 
 $(document).ready(function(){

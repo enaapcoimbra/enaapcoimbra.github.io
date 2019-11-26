@@ -578,4 +578,8 @@ a.btn.btn-outline-danger : hover
 	#ig:hover{
 		color: #d62976;
 	}
+	.textOrad
+	{
+		opacity:100%;
+	}
 }

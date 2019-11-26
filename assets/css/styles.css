@@ -884,14 +884,9 @@ h2{
 	max-width:50%;
 }
 
-#IMG29
+#IMG28, #IMG31, #IMG29
 {
-	max-width:50%;
-	float:right;
-}
-#IMG28, #IMG31
-{
-	max-width:50%;
+	max-width:100%;
 	float:left;
 }
 
@@ -1017,8 +1012,26 @@ a.btn.btn-outline-danger : hover
     color: white !important;
 }
 
-.carousel {padding-bottom: 25px}
-.carousel img{padding-top: 20px;}
-.carousel h2 {color: #0072b5;}
-.carousel h2 small{color: #289bde}
-.carousel col-lg-4 p {text-align: center;}
+.carousel-control-next
+{
+	background-color: rgb(187, 5, 7);
+}
+.carousel-control-prev
+{
+	background-color: rgb(187, 5, 7);
+}
+
+.imagem-slider
+{
+	padding-right:6.3% !important;
+}
+
+.texto-slider
+{
+	padding-left:6.3% !important;
+}
+
+.carousel-control-next, .carousel-control-prev 
+{
+	width:5% !important;
+}

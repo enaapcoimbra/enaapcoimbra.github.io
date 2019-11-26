@@ -8,10 +8,14 @@ $(document).ready(function(){
 	});
 });
 
+$(document).ready(function(){
+	var teste = parseInt(window.location.search.substring(1));
+    $("#SlideshowOradores").carousel(teste);
+});
 
 $(document).ready(function(){
-	
-	$(".section-desc#orador")
+	$(".indexOrador")
+	.css('cursor', 'pointer')
 	.mouseenter(function(){
 		$(this).find("p").animate(
 		{
@@ -23,6 +27,10 @@ $(document).ready(function(){
 		{
 			opacity:0 
 		}, 500, function(){});;
+	})
+	.click(function(){
+		var url = "Oradores?" + $(this).attr('id');
+		window.location.replace(url);
 	});
 });
 

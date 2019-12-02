@@ -527,7 +527,7 @@ a.btn.btn-outline-danger : hover
 
 .patrocinadores
 {
-	max-width:50%;
+	max-width:50% !important;
 }
 
 @media only screen and (max-width:767px) {

@@ -531,6 +531,10 @@ a.btn.btn-outline-danger : hover
 }
 
 @media only screen and (max-width:767px) {
+	.patrocinadores
+	{
+		max-width:25% !important;
+	}
 	#SlideshowOradoresMobile
 	{
 		display:block;

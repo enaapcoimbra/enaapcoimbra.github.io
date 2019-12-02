@@ -525,6 +525,11 @@ a.btn.btn-outline-danger : hover
 	color: #2867B2;
 }
 
+.patrocinadores
+{
+	max-width:50%;
+}
+
 @media only screen and (max-width:767px) {
 	#SlideshowOradoresMobile
 	{

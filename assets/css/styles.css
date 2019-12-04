@@ -529,11 +529,19 @@ a.btn.btn-outline-danger : hover
 {
 	max-width:50% !important;
 }
+.patrocinadoresMax
+{
+	max-width:75%!important;
+}
 
 @media only screen and (max-width:767px) {
 	.patrocinadores
 	{
 		max-width:25% !important;
+	}
+	.patrocinadoresMax
+	{
+		max-width:50%!important;
 	}
 	#SlideshowOradoresMobile
 	{

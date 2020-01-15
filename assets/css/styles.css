@@ -355,7 +355,7 @@ h2{
 	max-width:50%;
 }
 
-#IMG28, #IMG31, #IMG29
+#IMGCarousel
 {
 	max-width:100%;
 	float:left;
@@ -508,7 +508,7 @@ a.btn.btn-outline-danger : hover
 	width:5% !important;
 }
 
-#SlideshowOradoresMobile
+#SlideshowOradoresMobileP, #SlideshowOradoresMobileW
 {
 	display:none;
 }
@@ -543,11 +543,11 @@ a.btn.btn-outline-danger : hover
 	{
 		max-width:50%!important;
 	}
-	#SlideshowOradoresMobile
+	#SlideshowOradoresMobileP, #SlideshowOradoresMobileW
 	{
 		display:block;
 	}
-	#SlideshowOradores
+	#SlideshowOradoresP , #SlideshowOradoresW
 	{
 		display:none;
 	}

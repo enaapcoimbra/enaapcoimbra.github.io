@@ -9,13 +9,24 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	var teste = parseInt(window.location.search.substring(1));
-    $("#SlideshowOradores").carousel(teste);
-	$("#SlideshowOradoresMobile").carousel(teste);
+	var carousel = parseInt(window.location.search.substring(2));
+	$("#SlideshowOradoresP").carousel(parseInt(carousel));
+	$("#SlideshowOradoresMobileP").carousel(parseInt(carousel));
+	/*var carousel = window.location.search.substring(1);
+	if(carousel[0] == "p")
+	{
+		$("#SlideshowOradoresP").carousel(parseInt(carousel[1]));
+		$("#SlideshowOradoresMobileP").carousel(parseInt(carousel[1]));
+	}
+	else if(carousel[0] == "w")
+	{
+		$("#SlideshowOradoresW").carousel(parseInt(carousel[1]));
+		$("#SlideshowOradoresMobileW").carousel(parseInt(carousel[1]));
+	}*/
 });
 
 $(document).ready(function(){
-	$(".indexOrador")
+	$(".indexOradorP")
 	.css('cursor', 'pointer')
 	.mouseenter(function(){
 		$(this).find("p").animate(
@@ -30,7 +41,26 @@ $(document).ready(function(){
 		}, 500, function(){});;
 	})
 	.click(function(){
-		var url = "Oradores?" + $(this).attr('id');
+		var url = "Oradores?p" + $(this).attr('id');
+		window.location.replace(url);
+	});
+	
+	$(".indexOradorW")
+	.css('cursor', 'pointer')
+	.mouseenter(function(){
+		$(this).find("w").animate(
+		{
+			opacity:1 
+		}, 500, function(){});;
+	})
+	.mouseleave(function(){
+		$(this).find("w").animate(
+		{
+			opacity:0 
+		}, 500, function(){});;
+	})
+	.click(function(){
+		var url = "Oradores?w" + $(this).attr('id');
 		window.location.replace(url);
 	});
 });

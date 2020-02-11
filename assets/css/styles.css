@@ -529,6 +529,11 @@ a.btn.btn-outline-danger : hover
 	color:black!important;
 }
 
+.nav-item:hover
+{
+	text-decoration:none;
+}
+
 @media only screen and (max-width:767px) {
 	.patrocinadores
 	{
